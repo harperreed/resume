@@ -4,6 +4,7 @@ contact:
     page: '[harperreed.org](https://harperreed.org)'
     github: '[github.com/harperreed](https://github.com/harperreed)'
     linkedin: '[linkedin.com/in/harperreed](http://www.linkedin.com/in/harperreed)'
+    twitter: '[@harper](http://twitter.com/harper)'
 
 work:
 
@@ -12,15 +13,13 @@ work:
       location: 'Chicago, Il'
       dates: April 2011 - Present
       note: Obama for America is the relection campaign for President Barack Obama.
-      description:
-        - 
+
     - employer: Rackspace Hosting
       title: Customer in Residence
       location: 'San Antonio, TX'
       dates: October 2009 - April 2010
       note: Rackspace is an IT hosting company with a focus on cloud.
-      description:
-        - 
+
 
     - employer: skinnyCorp, LLC
       title: Chief Technology Officer
@@ -125,7 +124,7 @@ skills:
         - Markdown
 
 education:
-    - degree: 'Bachelor of Arts, Computer Science and Philosophy.' 
+    - degree: 'Bachelor of Arts, Computer Science and Philosophy' 
       name: Cornell College
       location: 'Mt Vernon, Iowa'
       dates: 2001

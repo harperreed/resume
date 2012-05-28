@@ -1,0 +1,72 @@
+contact:
+    name: Harper Reed
+    email: 'harper@nata2.org'
+    phone: +1 (773) 469 7666
+    github: '[github.com/harperreed](https://github.com/harperreed)'
+    github: '[linkedin.com/in/harperreed](http://www.linkedin.com/in/harperreed)'
+
+work:
+    - employer: skinnyCorp, LLC
+      title: Chief Technology Officer
+      location: 'Chicago, Il'
+      dates: August 2005 - October 2009
+      note: skinnyCorp is the parent company of the Threadless.com.
+      description:
+        - 'Acted as technology leader for a company of ~60 people with revenue of ~20-30M'
+        - 'Worked in a close team to design, execute and manage community websites'
+        - 'Lead the technology to support Threadless.com growth.'
+        - 'Grew Threadless.com from 2 barely functioning servers to over 45 devices.'
+        - 'Helped bridge the gap between the internet and reality with 2 retail stores.'
+        - 'Spoke about our technology at various events and conference, representing skinnyCorp and the Threadless vision.'
+        - 'Managed a small team of engineers to handle the day to day maintenance and projects.'
+
+    - employer: Cramer and Krasselt
+      title: Web Programmer
+      location: 'Chicago, Il'
+      dates: 2004 - October 2005
+      note: Cramer And Krasselt is an industry leading medium sized advertising agency.
+      description:
+        - 'Lead technologist and technical liaison to account management and creative staff.'
+        - 'Lead architect for client web applications. Worked with clients Airtran.com, Careerbuilder.com, and Barton Beers. (PHP, MYSQL, LINUX)'
+        - 'Lead engineer on full life cycle of Super Bowl viral campaign, Yeknominc.com. (PHP, MYSQL, LINUX)'
+        - 'Managed legacy operations for client web application management. (Perl, Navitaire SkyLights, JAVA)'
+
+    - employer: World Book Publishing
+      title: Security and Software Engineer
+      location: 'Chicago, Il'
+      dates: August 2005 - October 2009
+      note: World Book Publishing is a leading publisher of encyclopedias and children's learning material.
+      description:
+        - 'Lead development staff and managed offshore engineering team. Worked to develop and maintain World Book Publishing''s client facing web presence. Helped usher in new technology and standards - moving from AIX, DB2 on IBM hardware to Solaris, Oracle on Sun Hardware. Introduced open source technology and solution. (Solaris, JAVA, DB2, AIX, XML)'
+        - 'Wrote desktop content management utilities to aid in management of XML content by non-technical staff. (C#, PHP)'
+        - 'Developed practices to insure content accessibility and data portability. (JAVA, XML, XSLT, C#, DB2)'
+        - 'Helped develop a solid software security plan. Worked with system engineers to architect a secure production environment. Deployed production servers using open source software to meet budget constraints. (LINUX, NMAP, NESSUS, SOLARIS, AIX)'
+
+skills:
+    - Application Development:
+        - 'Python, PHP, Ruby, C#'
+    - Platforms:
+        - 'Unix (Linux, Solaris, AIX), OSX'
+    - Databases:
+        - 'MySQL, NoSQL, LotsOfSQL'
+    - System Software:
+        - 'Apache, Lighttpd, Tornado, Varnish, nginx, PHP, Python, Memcached, Ejabberd, Qmail, Postfix, Courier-IMAPd, Endeca'
+    - 'Cloud Infrastructure':
+        - 'Rackspace Cloud, Slicehost, AWS (S3, ec2, EBS, SimpleDB), Zerigo DNS'
+    - Security:
+        - 'PGP, Nessus, NMap, ACiD, Snort, Portsentry, IPF, Linux Firewalling, General Linux security'
+    - Markup Languages:
+        - 'HTML, XHTML, CSS, XML, XSLT, Markdown'
+
+education:
+    - degree: 'Bachelor of Arts, Computer Science and Philosophy.' 
+      school: Cornell College
+      location: 'Mt Vernon, Iowa'
+      dates: 2001
+
+awards:
+    - "2002 PRIX ARS ELECTRONICA : Net Vision Honorary Mention"
+   
+interests: 'Juggling, hacking, yoyoing, fashion'
+
+

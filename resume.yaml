@@ -19,7 +19,10 @@ work:
       location: 'San Antonio, TX'
       dates: October 2009 - April 2010
       note: Rackspace is an IT hosting company with a focus on cloud.
-
+      description:
+        - 'Worked with professional services department to help clients find the right solution. '
+        - 'Worked with executive staff to help define better customer experience'
+        - 'Represented Rackspace at conferences and small events.'
 
     - employer: skinnyCorp, LLC
       title: Chief Technology Officer
@@ -42,6 +45,7 @@ work:
       note: Squidoo is a community website that allows users to create pages for subjects of interest.
       description:
         - 'Worked with Seth Godin and an amazing team to help build an design the initial version of Squidoo.'
+        - 'Helped define initial vision and technology for Squidoo before core staff was hired'
 
     - employer: Cramer and Krasselt
       title: Web Programmer

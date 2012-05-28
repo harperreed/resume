@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title><%= contact["name"] %> : Resume</title>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+
+<style type="text/css" media="screen">
+body{
+    font-size: 10pt;
+    color: #000000;
+    font-family: helvetica;
+    margin: 3px;
+    line-height: 150%;
+}
+
+
+a
+{
+    color: #000000;
+    text-decoration: underline
+}
+
+a:hover
+{
+    color: #000000;
+    text-decoration: none
+}
+
+.section{
+    padding: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sectionContent{
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.sectionHeader{
+    font-weight: bold;
+    font-size: 13pt;
+    text-align: left;
+    border-bottom: 1px solid #666;
+     color: #666;
+}
+
+.headerTitle{
+    font-size: 24px; 
+    font-weight: bold;
+    text-align: center;
+}
+
+.headerBlock{
+    width: 150;
+    text-align: center;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="section">
+  <div class="headerTitle"><%= contact["name"] %></div>
+  <div class="headerBlock">
+    <a href="mailto:<%= contact["email"] %>"><%= contact["email"] %></a> <br />
+    <%= contact["page"] %>  <br />
+    <% unless contact["phone"].nil? %>
+      <%= contact["phone"] %>
+    <% end %>
+  </div>
+</div> 
+
+<div class="section">
+  <div class="sectionHeader"><strong>EXPERIENCE:</strong></div>
+  <% work.each do |job| %>
+    <div class="sectionContent">
+      <i><%= job["title"] %></i> <strong><%= job["employer"] %></strong> <%= job["location"] %> <%= job["dates"] %> <br />
+        <%= job["note"] %> 
+      <% unless job["description"].nil? %>
+        <ul>
+          <% job["description"].each do |item| %>
+            <li><%= item %></li>
+          <% end %>
+        </ul>
+      <% end %>
+    </div>
+  <% end %>
+</div>
+
+<div class="section">
+  <div class="sectionHeader"><strong>SKILLS:</strong></div>
+  <% skills.each do |skill| %>
+    <div class="sectionContent"><strong><%= skill['name'] %>:</strong>
+      <% skill['skills'].each do |s| %>
+        <%= s %>,
+      <% end %>
+    </div>
+  <% end %>
+</div>
+
+<div class="section">
+  <div class="sectionHeader"><strong>EDUCATION:</strong></div>
+    <% education.each do |institution| %>
+      <div class="sectionContent"><%= institution["degree"] %>. <br />
+      <%= institution["name"] %>, <%= institution["location"] %><br />
+      <%= institution["dates"] %> <br />
+      </div> 
+    <% end %>
+</div>
+ 
+<div class="section">
+<div class="sectionHeader"><strong>AWARDS:</strong></div>
+  <% awards.each do |institution| %>
+    <% institution["awards"].each do |award| %>
+    <div class="sectionContent"> <strong><%= award["date"] %> <%= institution["name"] %></strong> (<%= institution["location"] %>): <%= award["name"] %> </div>
+    <% end %>
+  <% end %>
+</div>
+  
+<div class="section">References available on request.</div>
+
+ 
+</body>
+</html>

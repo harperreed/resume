@@ -1,0 +1,47 @@
+#<%= contact["name"] %> : Résumé
+
+##CONTACT:
+
+[<%= contact["email"] %>](mailto:<%= contact["email"] %>)  
+<%= contact["page"] %>   
+<%= contact["twitter"] %>  
+<%= contact["github"] %>  
+<%= contact["linkedin"] %>  
+
+
+##EXPERIENCE:
+<% work.each do |job| %>
+_<%= job["title"] %>_ **<%= job["employer"] %>** <%= job["location"] %> <%= job["dates"] %>
+
+<%= job["note"] %> 
+
+<% unless job["description"].nil? %>
+<% job["description"].each do |item| %>
+* <%= item %>
+<% end %>
+<% end %>
+
+<% end %>
+
+##SKILLS:
+<% skills.each do |skill| %>
+* **<%= skill['name'] %>**: <% skill['skills'].each do |s| %><%= s %>, <% end %>
+
+<% end %>
+
+##EDUCATION:
+<% education.each do |institution| %>
+<%= institution["degree"] %>.  
+<%= institution["name"] %>, <%= institution["location"] %> <%= institution["dates"] %>
+
+<% end %>
+
+##AWARDS:
+<% awards.each do |institution| %>
+<% institution["awards"].each do |award| %>
+* **<%= award["date"] %> <%= institution["name"] %>** (<%= institution["location"] %>): <%= award["name"] %>
+<% end %>
+
+<% end %>
+
+**References available on request.**

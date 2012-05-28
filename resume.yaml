@@ -6,6 +6,23 @@ contact:
     github: '[linkedin.com/in/harperreed](http://www.linkedin.com/in/harperreed)'
 
 work:
+
+    - employer: Obama for America 
+      title: CTO
+      location: 'Chicago, Il'
+      dates: April 2011 - Present
+      note: Obama for America is the relection campaign for President Barack Obama.
+      description:
+        - ''
+
+    - employer: Rackspace Hosting
+      title: Customer in Residence
+      location: 'San Antonio, TX'
+      dates: October 2009 - April 2010
+      note: Rackspace is an IT hosting company with a focus on cloud.
+      description:
+        - ''
+        
     - employer: skinnyCorp, LLC
       title: Chief Technology Officer
       location: 'Chicago, Il'
@@ -20,10 +37,18 @@ work:
         - 'Spoke about our technology at various events and conference, representing skinnyCorp and the Threadless vision.'
         - 'Managed a small team of engineers to handle the day to day maintenance and projects.'
 
+    - employer: Squidoo
+      title: Summer Intern
+      location: 
+      dates: June 2005 - August 2005
+      note: Squidoo is a community website that allows users to create pages for subjects of interest.
+      description:
+        - 'Worked with Seth Godin and an amazing team to help build an design the initial version of Squidoo.'
+
     - employer: Cramer and Krasselt
       title: Web Programmer
       location: 'Chicago, Il'
-      dates: 2004 - October 2005
+      dates: October 2004 - July 2005
       note: Cramer And Krasselt is an industry leading medium sized advertising agency.
       description:
         - 'Lead technologist and technical liaison to account management and creative staff.'
@@ -34,7 +59,7 @@ work:
     - employer: World Book Publishing
       title: Security and Software Engineer
       location: 'Chicago, Il'
-      dates: August 2005 - October 2009
+      dates: June 2001 - October 2004
       note: World Book Publishing is a leading publisher of encyclopedias and children's learning material.
       description:
         - 'Lead development staff and managed offshore engineering team. Worked to develop and maintain World Book Publishing''s client facing web presence. Helped usher in new technology and standards - moving from AIX, DB2 on IBM hardware to Solaris, Oracle on Sun Hardware. Introduced open source technology and solution. (Solaris, JAVA, DB2, AIX, XML)'

@@ -1,28 +1,27 @@
 contact:
     name: Harper Reed
     email: 'harper@nata2.org'
-    phone: +1 (773) 469 7666
+    page: '[harperreed.org](https://harperreed.org)'
     github: '[github.com/harperreed](https://github.com/harperreed)'
-    github: '[linkedin.com/in/harperreed](http://www.linkedin.com/in/harperreed)'
+    linkedin: '[linkedin.com/in/harperreed](http://www.linkedin.com/in/harperreed)'
 
 work:
 
     - employer: Obama for America 
-      title: CTO
+      title: Chief Technology Officer
       location: 'Chicago, Il'
       dates: April 2011 - Present
       note: Obama for America is the relection campaign for President Barack Obama.
       description:
-        - ''
-
+        - 
     - employer: Rackspace Hosting
       title: Customer in Residence
       location: 'San Antonio, TX'
       dates: October 2009 - April 2010
       note: Rackspace is an IT hosting company with a focus on cloud.
       description:
-        - ''
-        
+        - 
+
     - employer: skinnyCorp, LLC
       title: Chief Technology Officer
       location: 'Chicago, Il'
@@ -68,30 +67,82 @@ work:
         - 'Helped develop a solid software security plan. Worked with system engineers to architect a secure production environment. Deployed production servers using open source software to meet budget constraints. (LINUX, NMAP, NESSUS, SOLARIS, AIX)'
 
 skills:
-    - Application Development:
-        - 'Python, PHP, Ruby, C#'
-    - Platforms:
-        - 'Unix (Linux, Solaris, AIX), OSX'
-    - Databases:
-        - 'MySQL, NoSQL, LotsOfSQL'
-    - System Software:
-        - 'Apache, Lighttpd, Tornado, Varnish, nginx, PHP, Python, Memcached, Ejabberd, Qmail, Postfix, Courier-IMAPd, Endeca'
-    - 'Cloud Infrastructure':
-        - 'Rackspace Cloud, Slicehost, AWS (S3, ec2, EBS, SimpleDB), Zerigo DNS'
-    - Security:
-        - 'PGP, Nessus, NMap, ACiD, Snort, Portsentry, IPF, Linux Firewalling, General Linux security'
-    - Markup Languages:
-        - 'HTML, XHTML, CSS, XML, XSLT, Markdown'
+    - name: 'Application Development'
+      skills:
+        - Python
+        - PHP
+        - Ruby
+        - 'C#'
+    - name: 'Platforms'
+      skills:
+        - 'Unix (Linux, Solaris, AIX)'
+        - OSX
+    - name: 'Databases'
+      skills:
+        - MySQL
+        - NoSQL
+        - LotsOfSQL
+    - name: 'System Software'
+      skills:
+        - Apache 
+        - Lighttpd
+        - Tornado
+        - Varnish
+        - nginx
+        - PHP
+        - Python
+        - Memcached
+        - Ejabberd
+        - Qmail
+        - Postfix
+        - Courier-IMAPd
+        - Endeca
+
+    - name: 'Cloud Infrastructure'
+      skills:
+        - 'Rackspace Cloud'
+        - Slicehost
+        - 'AWS (S3, ec2, EBS, SimpleDB)'
+        - Zerigo DNS
+        - Google App Engine
+    - name: Security
+      skills:
+        - PGP
+        - Nessus
+        - NMap
+        - ACiD/Snort
+        - Portsentry
+        - IPF
+        - Linux Firewalling
+        - General Linux security
+    - name: 'Markup Languages'
+      skills:
+        - HTML
+        - XHTML
+        - CSS
+        - XML
+        - XSLT
+        - Markdown
 
 education:
     - degree: 'Bachelor of Arts, Computer Science and Philosophy.' 
-      school: Cornell College
+      name: Cornell College
       location: 'Mt Vernon, Iowa'
       dates: 2001
 
 awards:
-    - "2002 PRIX ARS ELECTRONICA : Net Vision Honorary Mention"
-   
-interests: 'Juggling, hacking, yoyoing, fashion'
-
+  -
+    name: "PRIX ARS ELECTRONICA"
+    location: "Linz, Austria"
+    awards:
+      -
+        name: "Net Vision Honorary Mention"
+        date: "2002"
+  -
+    name: "MCIC"
+    location: "Chicago, Il"
+    awards:
+      -
+        name: " Data Innovation Award for the hacking the Chicago Transit Authority Bus API"
+        date: "2010"
 

@@ -1,5 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
-<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
 <title><%= contact["name"] %> : Résumé</title>
@@ -18,13 +18,13 @@ body{
 a
 {
     color: #000000;
-    text-decoration: underline
+    text-decoration: none;
 }
 
 a:hover
 {
     color: #000000;
-    text-decoration: none
+    text-decoration: underline;
 }
 
 .section{
@@ -50,9 +50,10 @@ a:hover
 }
 
 .headerTitle{
-    font-size: 24px; 
+    font-size: 24pt; 
     font-weight: bold;
     text-align: center;
+    padding: 5px;
 }
 
 .headerBlock{
@@ -124,7 +125,7 @@ a:hover
   <% end %>
 </div>
   
-<div class="section">References available on request.</div>
+<div class="section"><strong>References available on request.</strong></div>
 
  
 </body>

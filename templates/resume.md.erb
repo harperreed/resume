@@ -11,9 +11,8 @@
 
 ##EXPERIENCE:
 <% work.each do |job| %>
-_<%= job["title"] %>_ **<%= job["employer"] %>** <%= job["location"] %> <%= job["dates"] %>
-
-<%= job["note"] %> 
+_<%= job["title"] %>_ **<%= job["employer"] %>** <%= job["location"] %> <%= job["dates"] %>  
+<%= job["note"] %>   
 
 <% unless job["description"].nil? %>
 <% job["description"].each do |item| %>

@@ -15,10 +15,10 @@ end
 resume = YAML::load( File.open("resume.yaml") )
 
 if ARGV.size < 1
-  puts "usage: ./generate.rb <extension> [web]"
+  puts "usage: ./generate.rb <extension> [public]"
   puts "\n"
   puts "\t <extension> specifies the template, eg 'html' or 'tex'"
-  puts "\t use option [web] for web-version, default is full resume"
+  puts "\t use option [public] for public-version, default is full resume"
   exit 0
 end
 
@@ -29,8 +29,8 @@ template_file = "templates/resume." + extension + ".erb"
 # Does the template actually exist?
 abort("Error: template #{template_file} doesn't exist!") unless File.exists?( template_file )
 
-if ARGV[1] == "web"
-  output_file = "output/resume-web." + extension
+if ARGV[1] == "public"
+  output_file = "output/resume-public." + extension
 else
   output_file = "output/resume." + extension
 

@@ -19,5 +19,6 @@ A couple of notes:
 * [Ming-Ho Yee](http://mhyee.com/)'s [YAML résumé](https://github.com/mhyee/resume)
 * [David Hu's résumé in YAML](https://github.com/divad12/resume) - python generation scripts
 
-
+#### Obviously
+This is the résumé of Harper Reed. If you use any of this - please remove my identity from your resume.yaml.
 

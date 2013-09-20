@@ -13,6 +13,9 @@ work:
       location: 'Chicago, Il'
       dates: April 2011 - Present
       note: Obama for America is the relection campaign for President Barack Obama.
+      description:
+        - 'Hired world class technology team to build the technology platform for the reelection campaign'
+        - 'Worked with team to help define and architect the solutions that helped reelect the president'
 
     - employer: Rackspace Hosting
       title: Customer in Residence

@@ -1,7 +1,7 @@
 contact:
     name: Harper Reed
     email: 'harper@nata2.org'
-    page: '[harperreed.org](https://harperreed.org)'
+    page: '[harperreed.com](https://harperreed.com)'
     github: '[github.com/harperreed](https://github.com/harperreed)'
     linkedin: '[linkedin.com/in/harperreed](http://www.linkedin.com/in/harperreed)'
     twitter: '[@harper](http://twitter.com/harper)'
@@ -11,11 +11,11 @@ work:
     - employer: Obama for America 
       title: Chief Technology Officer
       location: 'Chicago, Il'
-      dates: April 2011 - Present
+      dates: April 2011 - December 2012
       note: Obama for America is the relection campaign for President Barack Obama.
       description:
-        - 'Hired world class technology team to build the technology platform for the reelection campaign'
-        - 'Worked with team to help define and architect the solutions that helped reelect the president'
+        - 'Hired world class technology team to build the technology platform for the reelection campaign.'
+        - 'Worked with team to help define and architect the solutions that helped reelect the president.'
 
     - employer: Rackspace Hosting
       title: Customer in Residence
@@ -151,4 +151,32 @@ awards:
       -
         name: " Data Innovation Award for the hacking the Chicago Transit Authority Bus API"
         date: "2010"
+  -
+    name: "Crain's"
+    location: "Chicago, Il"
+    awards:
+      -
+        name: "40 under 40"
+        date: "2013"
+  -
+    name: "Webby's"
+    location: "New York, NY"
+    awards:
+      -
+        name: "Breakout of the Year"
+        date: "2013"
+  -
+    name: "Moxie Awards"
+    location: "Chicago, Il"
+    awards:
+      -
+        name: "CTO of the Year"
+        date: "2013"
+
+
+
+
+
+
+
 

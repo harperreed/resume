@@ -29,7 +29,7 @@ work:
 
     - employer: skinnyCorp, LLC
       title: Chief Technology Officer
-      location: 'Chicago, Il'
+      location: 'Chicago, IL'
       dates: August 2005 - October 2009
       note: skinnyCorp is the parent company of the Threadless.com.
       description:
@@ -52,7 +52,7 @@ work:
 
     - employer: Cramer and Krasselt
       title: Web Programmer
-      location: 'Chicago, Il'
+      location: 'Chicago, IL'
       dates: October 2004 - July 2005
       note: Cramer And Krasselt is an industry leading medium sized advertising agency.
       description:
@@ -63,7 +63,7 @@ work:
 
     - employer: World Book Publishing
       title: Security and Software Engineer
-      location: 'Chicago, Il'
+      location: 'Chicago, IL'
       dates: June 2001 - October 2004
       note: World Book Publishing is a leading publisher of encyclopedias and children's learning material.
       description:
@@ -146,7 +146,7 @@ awards:
         date: "2002"
   -
     name: "MCIC"
-    location: "Chicago, Il"
+    location: "Chicago, IL"
     awards:
       -
         name: " Data Innovation Award for the hacking the Chicago Transit Authority Bus API"

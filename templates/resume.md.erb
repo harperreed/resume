@@ -22,12 +22,6 @@ _<%= job["title"] %>_ **<%= job["employer"] %>** <%= job["location"] %> <%= job[
 
 <% end %>
 
-##SKILLS:
-<% skills.each do |skill| %>
-* **<%= skill['name'] %>**: <% skill['skills'].each do |s| %><%= s %>, <% end %>
-
-<% end %>
-
 ##EDUCATION:
 <% education.each do |institution| %>
 <%= institution["degree"] %>.  

@@ -96,17 +96,6 @@ a:hover
 </div>
 
 <div class="section">
-  <div class="sectionHeader"><strong>SKILLS:</strong></div>
-  <% skills.each do |skill| %>
-    <div class="sectionContent"><strong><%= skill['name'] %>:</strong>
-      <% skill['skills'].each do |s| %>
-        <%= s %>,
-      <% end %>
-    </div>
-  <% end %>
-</div>
-
-<div class="section">
   <div class="sectionHeader"><strong>EDUCATION:</strong></div>
     <% education.each do |institution| %>
       <div class="sectionContent"><%= institution["degree"] %>. <br />

@@ -8,16 +8,24 @@ contact:
 
 work:
 
+    - employer: Paypal, Inc
+      title: Director, Software Development
+      location: 'Chicago, Il'
+      dates: August 2015 - Present
+      note: Through the acquisition of Modest, inc by Paypal, Harper joined the Braintree team to help lead the commerce initiatives
+      description:
+        - 'Stay tuned.'
+
     - employer: Modest, Inc
       title: Founder / Chief Executive Officer
       location: 'Chicago, Il'
-      dates: December 2012 - Present
+      dates: December 2012 - August 2015
       note: Modest is a mobile commerce platform that gives consumers the ability to buy from anywhere in just a few taps.
       description:
         - 'Built a platform that enabled retailers to launch and support mobile buying apps.'
         - 'Hired amazing team.'
-
-
+        - 'Launched beautiful and converting apps into the iOS app store'
+        - 'Sold company in late 2015 to Paypal, Inc'
 
     - employer: Obama for America 
       title: Chief Technology Officer

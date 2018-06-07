@@ -194,6 +194,13 @@ awards:
       -
         name: "CTO of the Year"
         date: "2013"
+  -
+    name: "Cornell College"
+    location: "Mt Vernon, IA"
+    awards:
+      -
+        name: "Young Alumni Achievement Award"
+        date: "2014"
 
   -
     name: "Asian Financial Society"

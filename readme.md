@@ -1,4 +1,4 @@
-#Harper's Resume
+# Harper's Resume
 
 I authored my résumé in HTML around 2002. It wasn't out of date, but I wasn't satisfied with how the data was stored. I needed something that allowed me to generate multiple versions without effort. I also wanted to be able to curate my résumé the same way that I curate the rest of my data. 
 
@@ -12,7 +12,7 @@ A couple of notes:
  * When using LaTeX, I have no idea what I am doing. Apparently I need to figure that out if i want to generate PDF files.
  * I currently only need HTML and Markdown
 
-####That is it. 
+#### That is it. 
 
 * [Anders' résumé in yaml](http://anders.conbere.org/resume/resume.yaml)
 * [Morgan's résumé in protobufs](https://github.com/mconbere/Resume/)

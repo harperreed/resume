@@ -1,0 +1,35 @@
+name: learn-github-actions
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: 
+  - push
+  - workflow_dispatch
+
+jobs:
+  install-deps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+      - run: npm install resumed jsonresume-theme-joeytall jsonresume-theme-dinesh
+
+      - name: Install go-task
+        uses: jaxxstorm/action-install-gh-release@v1.10.0
+        with: # Grab the latest version
+          repo: mikefarah/yq
+      - run: yq -o json resume.yaml >resume.json
+      - run: npx resume export resume.html --theme joeytall
+      - name: Commit and push if changed
+        run: |
+          git diff
+          git config --global user.email "harper+resume@modest.com"
+          git config --global user.name "resume-bot"
+          git add -A
+          git commit -m "Updated photos and resources" || exit 0
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+            commit-message: generate resume
+            title: Automated generation of resume
+            body: This is an auto-generated PR with an updated resume

@@ -5,7 +5,7 @@ on:
   - workflow_dispatch
 
 jobs:
-  install-deps:
+  generate-resume:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -20,7 +20,8 @@ jobs:
           repo: mikefarah/yq
       - run: yq -o json resume.yaml >resume.json
       - run: npx resumed validate
-      - run: npx resume export output/resume.html --theme joeytall
+      - run: npx resumed export output/resume.html --theme joeytall
+      - run: npx resumed export --theme jsonresume-theme-joeytall
       - name: Commit and push if changed
         run: |
           git diff

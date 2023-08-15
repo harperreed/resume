@@ -1,5 +1,5 @@
 name: learn-github-actions
-run-name: ${{ github.actor }} is learning GitHub Actions
+run-name: ${{ github.actor }} is generating a resume
 on: 
   - push
   - workflow_dispatch
@@ -12,14 +12,14 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '14'
-      - run: npm install resumed jsonresume-theme-joeytall jsonresume-theme-dinesh
+      - run: npm install jsonresume-theme-joeytall jsonresume-theme-dinesh
 
       - name: Install go-task
         uses: jaxxstorm/action-install-gh-release@v1.10.0
         with: # Grab the latest version
           repo: mikefarah/yq
       - run: yq -o json resume.yaml >resume.json
-      - run: resume export output/resume.html --theme joeytall
+      - run: npx resume export output/resume.html --theme joeytall
       - name: Commit and push if changed
         run: |
           git diff

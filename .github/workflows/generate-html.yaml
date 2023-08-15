@@ -19,6 +19,7 @@ jobs:
         with: # Grab the latest version
           repo: mikefarah/yq
       - run: yq -o json resume.yaml >resume.json
+      - run: npx resume validate
       - run: npx resume export output/resume.html --theme joeytall
       - name: Commit and push if changed
         run: |

@@ -13,7 +13,7 @@ basics:
         username: 'harperreed'
         url: 'https://www.linkedin.com/in/harperreed/'
     url: 'https://harperreed.com'
-    location: 
+    location:
       city: "Chicago"
       region: "IL"
       country: "USA"
@@ -27,7 +27,7 @@ work:
       endDate: "2023-07"
       description: Galactic was a fintech company building web3 products that bridge between the traditional financial world and the new world of crypto.
       summary: Cofounder and CEO of General Galactic Corporation.
-      highlights: 
+      highlights:
         - 'Build a team of amazing people to build amazing products'
         - 'Raised 10.5 million dollars in a pre-seed and see round'
         - 'Built a handful of products that helped guide users within crypto and fintech'
@@ -38,17 +38,17 @@ work:
       startDate: "2019-07"
       endDate: "2023-07"
       description: Joined a cohort of amazing people to be a delagate for USJLP.
-      highlights: 
+      highlights:
         - 'Worked with Japanese and American entrepreneurs to help build bridges between the two countries'
-        - 'Learned from our Japanese hosts about the culture and business practices in Japan' 
+        - 'Learned from our Japanese hosts about the culture and business practices in Japan'
 
     - company: MIT Medialab
       position: "Director's Fellow"
       location: "Boston, MA"
       startDate: "2018-05"
       endDate: "2020-05"
-      description: Joined a cohort of amazing people to be a 2018 Director's fellow. 
-      highlights: 
+      description: Joined a cohort of amazing people to be a 2018 Director's fellow.
+      highlights:
         - 'Work within the various groups at Medialab'
         - 'Work with the E14 fund to help their entrepreneurs'
 
@@ -76,7 +76,7 @@ work:
         - 'Launched beautiful and highly converting apps into the iOS app store'
         - 'Sold company in late 2015 to PayPal, Inc'
 
-    - company: Obama for America 
+    - company: Obama for America
       position: Chief Technology Officer
       location: 'Chicago, Il'
       startDate: "2011-04"
@@ -146,7 +146,7 @@ work:
         - 'Developed practices to insure content accessibility and data portability. (JAVA, XML, XSLT, C#, DB2)'
         - 'Helped develop a solid software security plan. Worked with system engineers to architect a secure production environment. Deployed production servers using open source software to meet budget constraints. (LINUX, NMAP, NESSUS, SOLARIS, AIX)'
 
-volunteer: 
+volunteer:
   - organization: 'Pardee RAND Graduate School'
     position: 'Board of Governors'
     startDate: "2020"
@@ -159,6 +159,7 @@ volunteer:
   - organization: 'Cornell College'
     position: 'Board of Trustees Member'
     startDate: "2016"
+    endDate: "2024"
 
 awards:
   - title: "Net Vision Honorary Mention"
@@ -200,13 +201,13 @@ awards:
 
 skills:
     - name: Startup Executive
-      keywords: 
+      keywords:
         - 'Accomplished Startup exec with over two decades of experience'
     - name: Networking
-      keywords: 
+      keywords:
         - 'Very broad and diverse network'
     - name: Fundraising
-      keywords: 
+      keywords:
         - Raised millions of dollars for various companies
     - name: 'Leadership'
       keywords:
@@ -232,11 +233,11 @@ languages:
 
 interests:
   - name: 'Hacking'
-    keywords: 
+    keywords:
       - 'Hardware'
       - 'Software'
   - name: 'Programming'
-    keywords: 
+    keywords:
       - 'Python'
       - 'Go'
       - 'Javascript'

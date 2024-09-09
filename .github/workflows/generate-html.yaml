@@ -19,13 +19,18 @@ jobs:
       - run: yq -o json resume.yaml >resume.json
       - run: npx resumed validate
       - run: npx -p resume-cli resume export --theme dinesh output/resume.html
-      - run: npx -p resume-cli resume export --theme joeytall output/resume.pdf
+      - run: npx -p resume-cli resume export --theme professional output/resume.pdf
+      - run: npx -p resume-cli resume export --theme professional output/resume2md.html
 
       - name: Install pandoc
         run: sudo apt-get install pandoc
 
       - name: Convert HTML to Markdown
-        run: pandoc -f html -t markdown_strict output/resume.html -o output/resume.md
+        run: pandoc -f html -t markdown_strict output/resume2md.html -o output/resume.md
+      - name: Delete resume for markdown conversion
+        run: rm output/resume2md.html
+
+
 
       - name: Commit and push if changed
         run: |

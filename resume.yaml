@@ -5,7 +5,7 @@ basics:
     profiles:
       - network: 'twitter'
         username: 'harper'
-        url: 'https://twitter.com/harper'
+        url: 'https://X.com/harper'
       - network: 'github'
         username: 'harperreed'
         url: 'https://github.com/harperreed'
@@ -20,6 +20,14 @@ basics:
     summary: "Harper Reed is a seasoned technologist and entrepreneur known for his impactful contributions across various domains. He has held significant roles at PayPal, Modest Inc., the Obama 2012 campaign, and Threadless.com, showcasing his ability to drive innovation in e-commerce, politics, and crowdsourcing. Most recently, Harper was the CEO of General Galactic Corporation, where he focused on shaping the future of the internet through web3 technologies and rational crypto offramps. Harper's commitment to education and collaboration is reflected in his advisory board roles, while his personal life in Chicago adds a human touch to his impressive journey."
 
 work:
+    - company: "2389 Research"
+      position: "CEO"
+      location: "Chicago, IL"
+      startDate: "2024-07"
+      description: A research organization focusing on the future of commerce
+      summary: Cofounder and CEO of 2389 Research.
+      highlights:
+          - 'Focused on the future of commerce and how applied AI can make commerce more excited and more robust'
     - company: "General Galactic Corporation"
       position: "CEO"
       location: "Chicago, IL"

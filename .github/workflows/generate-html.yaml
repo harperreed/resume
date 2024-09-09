@@ -20,10 +20,17 @@ jobs:
       - run: npx resumed validate
       - run: npx -p resume-cli resume export --theme dinesh output/resume.html
       - run: npx -p resume-cli resume export --theme joeytall output/resume.pdf
+
+      - name: Install pandoc
+        run: sudo apt-get install pandoc
+
+      - name: Convert HTML to Markdown
+        run: pandoc -f html -t markdown_strict output/resume.html -o output/resume.md
+
       - name: Commit and push if changed
         run: |
           git config --global user.email "harper+resume@modest.com"
           git config --global user.name "resume-bot"
-          # git add -A
+          git add -A
           git commit -m "Updated resume" || exit 0
           git push

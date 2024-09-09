@@ -1,15 +1,21 @@
-<span class="name"> Harper Reed </span>
+![](https://harperreed.com/avatar)
 
-<span class="email">harper+resume@modest.com</span> <span
-class="divider">|</span> <span class="address"> Chicago, IL </span>
+Harper Reed
+===========
 
-<span class="url"> **twitter:** <https://X.com/harper> </span> <span
-class="divider">|</span> <span class="url"> **github:**
-<https://github.com/harperreed> </span> <span class="divider">|</span>
-<span class="url"> **linkedin:**
-<https://www.linkedin.com/in/harperreed/> </span>
+  
 
-SUMMARY
+<harper+resume@modest.com> • Chicago, IL •
+[harperreed.com](https://harperreed.com) •
+[harper](https://X.com/harper) •
+[harperreed](https://github.com/harperreed) •
+[harperreed](https://www.linkedin.com/in/harperreed/)
+
+  
+
+### Summary
+
+  
 
 Harper Reed is a seasoned technologist and entrepreneur known for his
 impactful contributions across various domains. He has held significant
@@ -22,37 +28,13 @@ offramps. Harper's commitment to education and collaboration is
 reflected in his advisory board roles, while his personal life in
 Chicago adds a human touch to his impressive journey.
 
-EDUCATION
+  
 
-<span class="title"> Cornell College </span> <span class="date"> 1997 —
-2001 </span>
+### Work Experience
 
-Bachelor of Arts - Computer Science and Philosophy
+  
 
-SKILLS
-
-<span class="title">Startup Executive:</span> Accomplished Startup exec
-with over two decades of experience
-
-<span class="title">Networking:</span> Very broad and diverse network
-
-<span class="title">Fundraising:</span> Raised millions of dollars for
-various companies
-
-<span class="title">Leadership:</span> Managed teams from 1 to 100s of
-people (hard)
-
-<span class="title">Product Leadership:</span> Built products from zero
-to millions of users
-
-<span class="title">Technology Leadership:</span> Very technical ;)
-
-EXPERIENCE
-
-<span class="title"></span> | <span class="position">CEO</span> <span
-class="date"> 2024-07 — Present </span>
-
-[]()
+**CEO** • July 2024 - Present
 
 Cofounder and CEO of 2389 Research.
 
@@ -61,10 +43,9 @@ Cofounder and CEO of 2389 Research.
 -   Building a team of amazing people
 -   AI is wild
 
-<span class="title"></span> | <span class="position">CEO</span> <span
-class="date"> 2019-07 — 2023-07 </span>
+  
 
-[]()
+**CEO** • July 2019 - July 2023
 
 Cofounder and CEO of General Galactic Corporation.
 
@@ -74,29 +55,25 @@ Cofounder and CEO of General Galactic Corporation.
     and fintech
 -   Shut down the company in 2023 due to regulatatory uncertainty
 
-<span class="title"></span> | <span class="position">Delagate</span>
-<span class="date"> 2019-07 — 2023-07 </span>
+  
 
-[]()
+**Delagate** • July 2019 - July 2023
 
 -   Worked with Japanese and American entrepreneurs to help build
     bridges between the two countries
 -   Learned from our Japanese hosts about the culture and business
     practices in Japan
 
-<span class="title"></span> | <span class="position">Director's
-Fellow</span> <span class="date"> 2018-05 — 2020-05 </span>
+  
 
-[]()
+**Director's Fellow** • May 2018 - May 2020
 
 -   Work within the various groups at Medialab
 -   Work with the E14 fund to help their entrepreneurs
 
-<span class="title"></span> | <span class="position">Senior Director,
-Software Development</span> <span class="date"> 2015-08 — 2018-04
-</span>
+  
 
-[]()
+**Senior Director, Software Development** • August 2015 - April 2018
 
 -   Helped establish and define contextual commerce and an emergent
     commerce function.
@@ -106,10 +83,9 @@ Software Development</span> <span class="date"> 2015-08 — 2018-04
 -   Focused and fostered diversity efforts at the Chicago office of
     Braintree and PayPal
 
-<span class="title"></span> | <span class="position">Founder / Chief
-Executive Officer</span> <span class="date"> 2012-12 — 2015-08 </span>
+  
 
-[]()
+**Founder / Chief Executive Officer** • December 2012 - August 2015
 
 -   Built a platform that enabled retailers to launch and support mobile
     buying apps.
@@ -117,20 +93,18 @@ Executive Officer</span> <span class="date"> 2012-12 — 2015-08 </span>
 -   Launched beautiful and highly converting apps into the iOS app store
 -   Sold company in late 2015 to PayPal, Inc
 
-<span class="title"></span> | <span class="position">Chief Technology
-Officer</span> <span class="date"> 2011-04 — 2012-10 </span>
+  
 
-[]()
+**Chief Technology Officer** • April 2011 - October 2012
 
 -   Hired world class technology team to build the technology platform
     for the reelection campaign.
 -   Worked with team to help define and architect the solutions that
     helped reelect the president.
 
-<span class="title"></span> | <span class="position">Customer in
-Residence</span> <span class="date"> 2009-10 — 2010-04 </span>
+  
 
-[]()
+**Customer in Residence** • October 2009 - April 2010
 
 -   Worked with professional services department to help clients find
     the right solution.
@@ -138,10 +112,9 @@ Residence</span> <span class="date"> 2009-10 — 2010-04 </span>
     experience
 -   Represented Rackspace at conferences and small events.
 
-<span class="title"></span> | <span class="position">Chief Technology
-Officer</span> <span class="date"> 2005-08 — 2009-10 </span>
+  
 
-[]()
+**Chief Technology Officer** • August 2005 - October 2009
 
 -   Acted as technology leader for a company of ~60 people with revenue
     of ~20-30M
@@ -157,20 +130,18 @@ Officer</span> <span class="date"> 2005-08 — 2009-10 </span>
 -   Managed a small team of engineers to handle the day to day
     maintenance and projects.
 
-<span class="title"></span> | <span class="position">Summer
-Intern</span> <span class="date"> 2005-06 — 2005-08 </span>
+  
 
-[]()
+**Summer Intern** • June 2005 - August 2005
 
 -   Worked with Seth Godin and an amazing team to help build an design
     the initial version of Squidoo.
 -   Helped define initial vision and technology for Squidoo before core
     staff was hired
 
-<span class="title"></span> | <span class="position">Web
-Programmer</span> <span class="date"> 2004-10 — 2005-07 </span>
+  
 
-[]()
+**Web Programmer** • October 2004 - July 2005
 
 -   Lead technologist and technical liaison to account management and
     creative staff.
@@ -182,10 +153,9 @@ Programmer</span> <span class="date"> 2004-10 — 2005-07 </span>
 -   Managed legacy operations for client web application management.
     (Perl, Navitaire SkyLights, JAVA)
 
-<span class="title"></span> | <span class="position">Security and
-Software Engineer</span> <span class="date"> 2001-06 — 2004-10 </span>
+  
 
-[]()
+**Security and Software Engineer** • June 2001 - October 2004
 
 -   Lead development staff and managed offshore engineering team. Worked
     to develop and maintain World Book Publishing's client facing web
@@ -202,88 +172,171 @@ Software Engineer</span> <span class="date"> 2001-06 — 2004-10 </span>
     production servers using open source software to meet budget
     constraints. (LINUX, NMAP, NESSUS, SOLARIS, AIX)
 
-AWARDS
+  
 
-<span class="title"> Net Vision Honorary Mention </span> <span
-class="date"> <span class="date">2002</span> </span>
+### Volunteer Experience
 
-PRIX ARS ELECTRONICA
+  
+
+**Board of Governors** • Pardee RAND Graduate School • 2020 - Present
+
+  
+
+**Negaunee Music Institute Board Member** • Chicago Symphony Orchestra •
+2020 - Present
+
+  
+
+**Advisory Board** • Royal United Services Institute • 2017 - Present
+
+  
+
+**Board of Trustees Member** • Cornell College • 2016 - 2024
+
+  
+
+### Education
+
+  
+
+**Computer Science and Philosophy** • Cornell College • 1997 - 2001
+
+Bachelor of Arts
+
+  
+
+### Awards
+
+  
+
+**Net Vision Honorary Mention** • PRIX ARS ELECTRONICA • 2002
 
 Awarded for the the audreyhacking.com community. The audreyhacking.com
 community was a community of people who hacked the 3Com Audrey, a linux
 based internet appliance. The community was a place for people to share
 their hacks and ideas around the 3com Audrey.
 
-<span class="title"> Data Innovation Awards </span> <span class="date">
-<span class="date">2010</span> </span>
+  
 
-MCIC
+**Data Innovation Awards** • MCIC • 2010
 
 Awarded for hacking the Chicago Transit Authority Bus API
 
-<span class="title"> 40 under 40 </span> <span class="date"> <span
-class="date">2013</span> </span>
+  
 
-Crain's Chicago Business
+**40 under 40** • Crain's Chicago Business • 2013
 
 Awarded for being under 40 and for the work at Obama for America,
 Threadless, and the tech community
 
-<span class="title"> Breakout of the Year </span> <span class="date">
-<span class="date">2013</span> </span>
+  
 
-Webby's
-
-Awarded for the work at Obama for America
-
-<span class="title"> CTO of the Year </span> <span class="date"> <span
-class="date">2013</span> </span>
-
-Moxie Awards
+**Breakout of the Year** • Webby's • 2013
 
 Awarded for the work at Obama for America
 
-<span class="title"> Young Alumni Achievement Award </span> <span
-class="date"> <span class="date">2014</span> </span>
+  
 
-Cornell College
+**CTO of the Year** • Moxie Awards • 2013
 
 Awarded for the work at Obama for America
 
-<span class="title"> AaA 2017 PrMMAE </span> <span class="date"> <span
-class="date">2017</span> </span>
+  
 
-Asian Financial Society
+**Young Alumni Achievement Award** • Cornell College • 2014
+
+Awarded for the work at Obama for America
+
+  
+
+**AaA 2017 PrMMAE** • Asian Financial Society • 2017
 
 Awarded for the work at Modest / Paypal
 
-VOLUNTEERING
+  
 
-<span class="title">Board of Governors</span> | Pardee RAND Graduate
-School <span class="date"> 2020 — Present </span>
+### Skills
 
-<span class="title"> Negaunee Music Institute Board Member</span> |
-Chicago Symphony Orchestra <span class="date"> 2020 — Present </span>
+  
 
-<span class="title">Advisory Board</span> | Royal United Services
-Institute <span class="date"> 2017 — Present </span>
+**Startup Executive**
 
-<span class="title">Board of Trustees Member</span> | Cornell College
-<span class="date"> 2016 — 2024 </span>
+Accomplished Startup exec with over two decades of experience
 
-LANGUAGES
+  
 
-<span class="language">English</span> <span
-class="fluency">*(Native)*</span>
+**Networking**
 
-INTERESTS
+Very broad and diverse network
 
-<span class="name">Hacking</span> <span class="keywords"> *\[ Hardware ,
-Software \]* </span> , <span class="name">Programming</span> <span
-class="keywords"> *\[ Python , Go , Javascript \]* </span> , <span
-class="name">Photography</span> <span class="keywords"> *\[ Film ,
-Digital , Travel \]* </span> , <span class="name">Music</span> <span
-class="keywords"> *\[ Hip-Hop , Classical , Hyperpop , Metal \]* </span>
-, <span class="name">Reading</span> <span class="keywords"> *\[ Science
-Fiction , Fantasy , Non-Fiction \]* </span> , <span
-class="name">Travel</span>
+  
+
+**Fundraising**
+
+Raised millions of dollars for various companies
+
+  
+
+**Leadership**
+
+Managed teams from 1 to 100s of people (hard)
+
+  
+
+**Product Leadership**
+
+Built products from zero to millions of users
+
+  
+
+**Technology Leadership**
+
+Very technical ;)
+
+  
+
+### Languages
+
+  
+
+**English** (Native)
+
+  
+
+### Interests
+
+  
+
+**Hacking**
+
+Hardware • Software
+
+  
+
+**Programming**
+
+Python • Go • Javascript
+
+  
+
+**Photography**
+
+Film • Digital • Travel
+
+  
+
+**Music**
+
+Hip-Hop • Classical • Hyperpop • Metal
+
+  
+
+**Reading**
+
+Science Fiction • Fantasy • Non-Fiction
+
+  
+
+**Travel**
+
+  

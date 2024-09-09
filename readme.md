@@ -1,69 +1,53 @@
-# 🎉 Welcome to Harper's Resume Repository! 🎉
+# Harper's Resume
 
-This repository is dedicated to showcasing my professional résumé through various formats, allowing you to view, edit, and understand my background in a structured way. Whether you're interested in my experiences, skills, or any other details, everything is organized for your convenience! 🚀
+I authored my résumé in HTML around 2002. While it wasn't outdated, I wasn't satisfied with how the data was stored. I needed a solution that allowed me to generate multiple versions effortlessly and curate my résumé the same way I curate the rest of my data.
 
-## 📄 Summary of Project
+## The Journey to YAML
 
-The aim of this project is to present my résumé in multiple data formats (JSON, YAML) that can be easily converted into a static HTML webpage. By organizing my information in this way, it enables flexibility and ease of use while allowing me to maintain and update it quickly. The HTML output reveals my professional journey, skills acquired, and contributions made throughout my career, along with details about my education, awards, and volunteer work. 
+My journey to a more manageable résumé format began when I saw my friend [Anders' résumé in YAML](http://anders.conbere.org/resume/resume.yaml). His approach made sense, and reading about his brother [Morgan's thoughts on using protobufs for résumés](https://github.com/mconbere/Resume/) inspired me to convert my résumé to YAML.
 
-Check out the résumé [here](output/resume.html).
+Later, I discovered [Ming-Ho Yee's repo](https://github.com/mhyee/resume) with a [Ruby script](https://github.com/mhyee/résumé/blob/master/generate.rb) for generating HTML and TEX from YAML. I "forked" the repo, built my résumé in YAML, and migrated my old HTML résumé to the ERB template.
 
-## 🚀 How to Use
+## Current Setup
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/harperreed/resume.git
-   cd resume
-   ```
+Now, I use YAML as my primary format due to its ease of editing. Here's how it works:
 
-2. **Install Dependencies**
-   Make sure you have Node.js installed, as this project uses NPM for managing dependencies.
-   Install the dependencies using:
-   ```bash
-   npm install
-   ```
+1. The résumé data is stored in `resume.yaml`.
+2. A GitHub Action converts the YAML to JSON.
+3. The JSON Resume tooling generates the output (HTML, PDF, etc.).
 
-3. **Generate the Résumé**
-   Build the HTML résumé from the JSON or YAML file using your preferred method or template engine (e.g., use a library or script to convert JSON/YAML to HTML format).
+This setup offers several advantages:
+- More robust than editing in Google Docs or similar platforms
+- Easier to maintain and use
+- Version control through Git
+- Automated generation of different formats
 
-4. **Open the Résumé**
-   Once generated, open the `output/resume.html` file in a web browser to see the final result. 🌐
+## Why You Should Try This Approach
 
-## ⚙️ Tech Info
+If you're reading this, I highly recommend forking this repo and creating your own YAML-based résumé. Here's why:
 
-- **Languages Used:** 
-  - HTML
-  - JavaScript
-  - JSON
-  - YAML
+- **Ease of Maintenance**: Updating your résumé becomes a breeze.
+- **Version Control**: Track changes and revert if needed.
+- **Multiple Formats**: Generate various outputs from a single source.
+- **Data Portability**: Your résumé data isn't locked into any proprietary format.
 
-- **Libraries & Frameworks:**
-  - `jsonresume-theme-dinesh`: For generating a visually appealing résumé.
-  - `jsonresume-theme-even`: Another theme option if you prefer a different layout.
-  - `jsonresume-theme-joeytall`: A third theme for further customization.
+Once you try this method, you'll never want to go back to traditional résumé editing!
 
-- **Directory/File Structure:**
-  ```
-  resume/
-  ├── output
-  │   ├── resume.html         # Generated HTML résumé
-  ├── package.json            # Dependency management
-  ├── readme.md               # Project documentation (this file)
-  ├── resume.json             # Résumé data in JSON format
-  └── resume.yaml             # Résumé data in YAML format
-  ```
+## Notes
 
-## ❤️ Acknowledgments
+- I appreciate how Ming-Ho Yee separated private data into its own YAML file.
+- LaTeX knowledge is helpful for PDF generation, but not strictly necessary.
+- Currently, I mainly use HTML and Markdown outputs.
 
-A special thanks to the developers and researchers mentioned throughout the project for their influences and contributions to résumé structures and ideas. 
+## Inspiration and Similar Projects
 
-Connect with me:
-- [Twitter](https://twitter.com/harper) 🐦
-- [GitHub](https://github.com/harperreed) 🐙
-- [LinkedIn](https://www.linkedin.com/in/harperreed/) 💼
+- [Anders' résumé in YAML](http://anders.conbere.org/resume/resume.yaml)
+- [Morgan's résumé in protobufs](https://github.com/mconbere/Resume/)
+- [Ming-Ho Yee's YAML résumé](https://github.com/mhyee/resume)
+- [David Hu's résumé in YAML](https://github.com/divad12/resume) (with Python generation scripts)
 
-Feel free to fork this project, adapt it for your own résumé, and let your professional journey shine! ✨
+## Important Note
 
----
+This is the résumé of Harper Reed. If you use any of this code, please remove my personal information from your `resume.yaml` file.
 
-Thank you for checking out my résumé! 🎉 If you have any questions, open an issue or reach out directly!
+Feel free to reach out if you have any questions or suggestions for improvement!

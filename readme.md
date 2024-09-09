@@ -1,24 +1,69 @@
-# Harper's Resume
+# 🎉 Welcome to Harper's Resume Repository! 🎉
 
-I authored my résumé in HTML around 2002. It wasn't out of date, but I wasn't satisfied with how the data was stored. I needed something that allowed me to generate multiple versions without effort. I also wanted to be able to curate my résumé the same way that I curate the rest of my data. 
+This repository is dedicated to showcasing my professional résumé through various formats, allowing you to view, edit, and understand my background in a structured way. Whether you're interested in my experiences, skills, or any other details, everything is organized for your convenience! 🚀
 
-The first time I thought about doing this was after seeing my friend [Anders' résumé in yaml](http://anders.conbere.org/resume/resume.yaml) (his [brother Morgan's résumé is in protobufs](https://raw.github.com/mconbere/Resume/master/mconbere/mconbere.ptxt) (they are a crazy family)). Anders' résumé made sense. And reading about Morgan's [thoughts behind his protobuf résumé](https://github.com/mconbere/Resume/) made me think of converting my résumé to yaml. 
+## 📄 Summary of Project
 
-I then ran into [Ming-Ho Yee](http://mhyee.com/)'s [repo](https://github.com/mhyee/resume) that had a [nice ruby script](https://github.com/mhyee/résumé/blob/master/generate.rb) to generate HTML and TEX from yaml.  I "forked" the repo, built my résumé in yaml and migrated my old HTML résumé to the ERB template.  
+The aim of this project is to present my résumé in multiple data formats (JSON, YAML) that can be easily converted into a static HTML webpage. By organizing my information in this way, it enables flexibility and ease of use while allowing me to maintain and update it quickly. The HTML output reveals my professional journey, skills acquired, and contributions made throughout my career, along with details about my education, awards, and volunteer work. 
 
-A couple of notes:
+Check out the résumé [here](output/resume.html).
 
- * I really liked how Ming-Ho Yee separated out the private data into its own yaml file. 
- * When using LaTeX, I have no idea what I am doing. Apparently I need to figure that out if i want to generate PDF files.
- * I currently only need HTML and Markdown
+## 🚀 How to Use
 
-#### That is it. 
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/harperreed/resume.git
+   cd resume
+   ```
 
-* [Anders' résumé in yaml](http://anders.conbere.org/resume/resume.yaml)
-* [Morgan's résumé in protobufs](https://github.com/mconbere/Resume/)
-* [Ming-Ho Yee](http://mhyee.com/)'s [YAML résumé](https://github.com/mhyee/resume)
-* [David Hu's résumé in YAML](https://github.com/divad12/resume) - python generation scripts
+2. **Install Dependencies**
+   Make sure you have Node.js installed, as this project uses NPM for managing dependencies.
+   Install the dependencies using:
+   ```bash
+   npm install
+   ```
 
-#### Obviously
-This is the résumé of Harper Reed. If you use any of this - please remove my identity from your resume.yaml.
+3. **Generate the Résumé**
+   Build the HTML résumé from the JSON or YAML file using your preferred method or template engine (e.g., use a library or script to convert JSON/YAML to HTML format).
 
+4. **Open the Résumé**
+   Once generated, open the `output/resume.html` file in a web browser to see the final result. 🌐
+
+## ⚙️ Tech Info
+
+- **Languages Used:** 
+  - HTML
+  - JavaScript
+  - JSON
+  - YAML
+
+- **Libraries & Frameworks:**
+  - `jsonresume-theme-dinesh`: For generating a visually appealing résumé.
+  - `jsonresume-theme-even`: Another theme option if you prefer a different layout.
+  - `jsonresume-theme-joeytall`: A third theme for further customization.
+
+- **Directory/File Structure:**
+  ```
+  resume/
+  ├── output
+  │   ├── resume.html         # Generated HTML résumé
+  ├── package.json            # Dependency management
+  ├── readme.md               # Project documentation (this file)
+  ├── resume.json             # Résumé data in JSON format
+  └── resume.yaml             # Résumé data in YAML format
+  ```
+
+## ❤️ Acknowledgments
+
+A special thanks to the developers and researchers mentioned throughout the project for their influences and contributions to résumé structures and ideas. 
+
+Connect with me:
+- [Twitter](https://twitter.com/harper) 🐦
+- [GitHub](https://github.com/harperreed) 🐙
+- [LinkedIn](https://www.linkedin.com/in/harperreed/) 💼
+
+Feel free to fork this project, adapt it for your own résumé, and let your professional journey shine! ✨
+
+---
+
+Thank you for checking out my résumé! 🎉 If you have any questions, open an issue or reach out directly!

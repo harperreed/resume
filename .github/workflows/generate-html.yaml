@@ -24,6 +24,6 @@ jobs:
         run: |
           git config --global user.email "harper+resume@modest.com"
           git config --global user.name "resume-bot"
-          git add -A
+          # git add -A
           git commit -m "Updated resume" || exit 0
           git push

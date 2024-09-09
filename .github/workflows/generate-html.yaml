@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
-      - run: npm install jsonresume-theme-joeytall jsonresume-theme-dinesh jsonresume-theme-even
+      - run: npm install jsonresume-theme-joeytall jsonresume-theme-professional jsonresume-theme-dinesh jsonresume-theme-even
 
       - name: Install go-task
         uses: jaxxstorm/action-install-gh-release@v1.10.0

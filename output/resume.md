@@ -5,7 +5,7 @@ Harper Reed
 
   
 
-<harper@nata2.org> • Chicago, IL •
+<harper+resume@modest.com> • Chicago, IL •
 [harperreed.com](https://harperreed.com) •
 [harper](https://X.com/harper) •
 [harperreed](https://github.com/harperreed) •

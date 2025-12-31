@@ -26,8 +26,28 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Install Chrome dependencies for Puppeteer
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libnss3 \
+            libatk1.0-0 \
+            libatk-bridge2.0-0 \
+            libcups2 \
+            libdrm2 \
+            libxkbcommon0 \
+            libxcomposite1 \
+            libxdamage1 \
+            libxfixes3 \
+            libxrandr2 \
+            libgbm1 \
+            libasound2 \
+            libpango-1.0-0 \
+            libcairo2 \
+            pandoc
+
       - name: Install resume themes
-        run: npm install jsonresume-theme-joeytall jsonresume-theme-vitae jsonresume-theme-short
+        run: npm install jsonresume-theme-joeytall jsonresume-theme-vitae jsonresume-theme-short puppeteer
 
       - name: Install yq
         uses: jaxxstorm/action-install-gh-release@v1.14.0
@@ -46,23 +66,19 @@ jobs:
       - name: Generate HTML resume
         run: npx -p resume-cli resume export --theme joeytall output/resume.html
 
-      - name: Generate HTML for PDF conversion
-        run: npx -p resume-cli resume export --theme short output/resume_for_pdf.html
+      - name: Generate PDF resume
+        run: npx -p resume-cli resume export --theme short output/resume.pdf
+        env:
+          PUPPETEER_EXECUTABLE_PATH: /usr/bin/google-chrome-stable
 
       - name: Generate HTML for Markdown conversion
         run: npx -p resume-cli resume export --theme vitae output/resume_temp.html
-
-      - name: Install wkhtmltopdf and pandoc
-        run: sudo apt-get update && sudo apt-get install -y wkhtmltopdf pandoc
-
-      - name: Generate PDF resume
-        run: wkhtmltopdf --enable-local-file-access output/resume_for_pdf.html output/resume.pdf
 
       - name: Convert HTML to Markdown
         run: pandoc -f html -t markdown_strict output/resume_temp.html -o output/resume.md
 
       - name: Clean up temporary files
-        run: rm -f output/resume_temp.html output/resume_for_pdf.html
+        run: rm -f output/resume_temp.html
 
       - name: Commit and push if changed
         run: |

@@ -25,12 +25,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-          cache: 'npm'
 
-      - name: Create package.json for caching
-        run: |
-          echo '{"dependencies":{}}' > package.json
-          npm install jsonresume-theme-joeytall jsonresume-theme-vitae jsonresume-theme-short
+      - name: Install resume themes
+        run: npm install jsonresume-theme-joeytall jsonresume-theme-vitae jsonresume-theme-short
 
       - name: Install yq
         uses: jaxxstorm/action-install-gh-release@v1.14.0

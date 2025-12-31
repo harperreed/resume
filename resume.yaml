@@ -255,6 +255,7 @@ interests:
           - "Python"
           - "Go"
           - "Javascript"
+          - "Rust"
     - name: "Photography"
       keywords:
           - "Film"

@@ -327,7 +327,7 @@ Hardware • Software
 
 **Programming**
 
-Python • Go • Javascript
+Python • Go • Javascript • Rust
 
   
 

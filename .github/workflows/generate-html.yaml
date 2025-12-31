@@ -1,54 +1,73 @@
-name: learn-github-actions
+# ABOUTME: GitHub Actions workflow to generate resume in HTML, PDF, and Markdown formats
+# ABOUTME: Converts resume.yaml to JSON, validates it, then exports using jsonresume themes
+
+name: Generate Resume
 run-name: ${{ github.actor }} is generating a resume
+
 on:
-  - push
-  - workflow_dispatch
+  push:
+    paths:
+      - 'resume.yaml'
+      - '.github/workflows/generate-html.yaml'
+  workflow_dispatch:
 
 jobs:
   generate-resume:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
-      - run: npm install jsonresume-theme-joeytall jsonresume-theme-vitae jsonresume-theme-dinesh jsonresume-theme-even jsonresume-theme-kendall jsonresume-theme-classy jsonresume-theme-short jsonresume-theme-onepage-plus
+          cache: 'npm'
 
-      - name: Install go-task
-        uses: jaxxstorm/action-install-gh-release@v1.10.0
-        with: # Grab the latest version
+      - name: Create package.json for caching
+        run: |
+          echo '{"dependencies":{}}' > package.json
+          npm install jsonresume-theme-joeytall jsonresume-theme-vitae jsonresume-theme-short
+
+      - name: Install yq
+        uses: jaxxstorm/action-install-gh-release@v1.14.0
+        with:
           repo: mikefarah/yq
-      - run: yq -o json resume.yaml >resume.json
-      - run: npx resumed validate
-      - run: npx -p resume-cli resume export --theme joeytall output/resume.html
-      # - run: npx -p resume-cli resume export --theme dinesh output/resume_dinesh.html
-      # - run: npx -p resume-cli resume export --theme even output/resume_even.html
-      # - run: npx -p resume-cli resume export --theme kendall output/resume_kendall.html
-      # - run: npx -p resume-cli resume export --theme onepage-plus output/resume_onepage-plus.html
-      # - run: npx -p resume-cli resume export --theme short output/resume_short.html
-      # - run: npx -p resume-cli resume export --theme vitae output/resume_vitae.html
-      # - run: npx -p resume-cli resume export --theme even output/resume_even.pdf
-      # - run: npx -p resume-cli resume export --theme kendall output/resume_kendall.pdf
-      # - run: npx -p resume-cli resume export --theme onepage-plus output/resume_onepage-plus.pdf
-      # - run: npx -p resume-cli resume export --theme short output/resume_short.pdf
-      # - run: npx -p resume-cli resume export --theme vitae output/resume_vitae.pdf
-      - run: npx -p resume-cli resume export --theme short output/resume.pdf
-      - run: npx -p resume-cli resume export --theme vitae output/resume2md.html
+
+      - name: Convert YAML to JSON
+        run: yq -o json resume.yaml > resume.json
+
+      - name: Validate resume
+        run: npx resumed validate
+
+      - name: Create output directory
+        run: mkdir -p output
+
+      - name: Generate HTML resume
+        run: npx -p resume-cli resume export --theme joeytall output/resume.html
+
+      - name: Generate PDF resume
+        run: npx -p resume-cli resume export --theme short output/resume.pdf
+
+      - name: Generate HTML for Markdown conversion
+        run: npx -p resume-cli resume export --theme vitae output/resume_temp.html
 
       - name: Install pandoc
-        run: sudo apt-get install pandoc
+        run: sudo apt-get update && sudo apt-get install -y pandoc
 
       - name: Convert HTML to Markdown
-        run: pandoc -f html -t markdown_strict output/resume2md.html -o output/resume.md
-      - name: Delete resume for markdown conversion
-        run: rm output/resume2md.html
+        run: pandoc -f html -t markdown_strict output/resume_temp.html -o output/resume.md
 
-
+      - name: Clean up temporary files
+        run: rm -f output/resume_temp.html
 
       - name: Commit and push if changed
         run: |
           git config --global user.email "harper+resume@modest.com"
           git config --global user.name "resume-bot"
           git add -A
-          git commit -m "Updated resume" || exit 0
+          git diff --staged --quiet || git commit -m "chore: regenerate resume outputs"
           git push

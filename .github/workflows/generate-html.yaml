@@ -46,20 +46,23 @@ jobs:
       - name: Generate HTML resume
         run: npx -p resume-cli resume export --theme joeytall output/resume.html
 
-      - name: Generate PDF resume
-        run: npx -p resume-cli resume export --theme short output/resume.pdf
+      - name: Generate HTML for PDF conversion
+        run: npx -p resume-cli resume export --theme short output/resume_for_pdf.html
 
       - name: Generate HTML for Markdown conversion
         run: npx -p resume-cli resume export --theme vitae output/resume_temp.html
 
-      - name: Install pandoc
-        run: sudo apt-get update && sudo apt-get install -y pandoc
+      - name: Install wkhtmltopdf and pandoc
+        run: sudo apt-get update && sudo apt-get install -y wkhtmltopdf pandoc
+
+      - name: Generate PDF resume
+        run: wkhtmltopdf --enable-local-file-access output/resume_for_pdf.html output/resume.pdf
 
       - name: Convert HTML to Markdown
         run: pandoc -f html -t markdown_strict output/resume_temp.html -o output/resume.md
 
       - name: Clean up temporary files
-        run: rm -f output/resume_temp.html
+        run: rm -f output/resume_temp.html output/resume_for_pdf.html
 
       - name: Commit and push if changed
         run: |

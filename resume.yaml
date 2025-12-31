@@ -157,7 +157,7 @@ work:
           - "Helped develop a solid software security plan. Worked with system engineers to architect a secure production environment. Deployed production servers using open source software to meet budget constraints. (LINUX, NMAP, NESSUS, SOLARIS, AIX)"
 
 volunteer:
-    - organization: "Pardee RAND Graduate School"
+    - organization: "RAND School of Public Policy"
       position: "Board of Governors"
       startDate: "2020"
     - organization: "Chicago Symphony Orchestra"
@@ -169,9 +169,10 @@ volunteer:
     - organization: "Illinois Institute of Technology"
       position: "Computer Science Advisory Board"
       startDate: "2017"
+      endDate: "2019"
     - organization: "Keeper Security"
       position: "Board Member"
-      startDate: "2018"
+      startDate: "2013"
     - organization: "House of Cards (Netflix)"
       position: "Technical Consultant"
       startDate: "2014"

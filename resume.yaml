@@ -59,8 +59,8 @@ work:
       endDate: "2020-05"
       description: Joined a cohort of amazing people to be a 2018 Director's fellow.
       highlights:
-          - "Work within the various groups at Medialab"
-          - "Work with the E14 fund to help their entrepreneurs"
+          - "Worked within the various groups at Medialab"
+          - "Worked with the E14 fund to help their entrepreneurs"
 
     - company: Paypal, Inc
       position: Senior Director, Software Development
@@ -82,7 +82,7 @@ work:
       description: Modest is a mobile commerce platform that gives consumers the ability to buy from anywhere in just a few taps.
       highlights:
           - "Built a platform that enabled retailers to launch and support mobile buying apps."
-          - "Hired amazing team."
+          - "Hired an amazing team"
           - "Launched beautiful and highly converting apps into the iOS app store"
           - "Sold company in late 2015 to PayPal, Inc"
 
@@ -212,12 +212,6 @@ awards:
       date: "2014"
       location: "Mt Vernon, IA"
       awarder: "Cornell College"
-    - title: "AaA 2017 PrMMAE"
-      date: "2017"
-      location: "New York, NY"
-      awarder: "Asian Financial Society"
-      summary: "Awarded for the work at Modest / Paypal"
-
 skills:
     - name: Startup Executive
       keywords:

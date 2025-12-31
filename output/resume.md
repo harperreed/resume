@@ -183,7 +183,7 @@ Cofounder and CEO of General Galactic Corporation.
 
   
 
-**Board of Governors** • Pardee RAND Graduate School • 2020 - Present
+**Board of Governors** • RAND School of Public Policy • 2020 - Present
 
   
 
@@ -197,11 +197,11 @@ Cofounder and CEO of General Galactic Corporation.
   
 
 **Computer Science Advisory Board** • Illinois Institute of Technology •
-2017 - Present
+2017 - 2019
 
   
 
-**Board Member** • Keeper Security • 2018 - Present
+**Board Member** • Keeper Security • 2013 - Present
 
   
 

@@ -20,7 +20,7 @@ jobs:
           repo: mikefarah/yq
       - run: yq -o json resume.yaml >resume.json
       - run: npx resumed validate
-      - run: npx -p resume-cli resume export --theme even output/resume.html
+      - run: npx -p resume-cli resume export --theme joeytall output/resume.html
       # - run: npx -p resume-cli resume export --theme dinesh output/resume_dinesh.html
       # - run: npx -p resume-cli resume export --theme even output/resume_even.html
       # - run: npx -p resume-cli resume export --theme kendall output/resume_kendall.html
